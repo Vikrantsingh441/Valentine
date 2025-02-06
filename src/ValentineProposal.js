@@ -30,65 +30,65 @@ const ValentineProposal = () => {
 
   const noTexts = [
     "No",
-    "Are you sure?",
-    "Really sure?",
-    "Think again!",
-    "Last chance!",
-    "Surely not?",
-    "You might regret this!",
-    "Give it another thought!",
-    "Are you absolutely certain?",
-    "This could be a mistake!",
-    "Have a heart!",
-    "Don't be cold!",
-    "Change of heart?",
-    "Wouldn't you reconsider?",
-    "Is that your final answer?",
-    "You're breaking my heart ;(",
+    "Pkka nahi? 🤨",
+    "Soch le! 🤯",
+    "Ro dunga ab main 😢",
+    "Bf hui tera manja 😏",
+    "Pese dunga manja 💰😏",
+    "Baat nahi krunga! 😤",
+    "Bache ki jaan lele? 😭",
+    "Sharam nahi aari 😒",
+    "Zulm kyun dha rahi hai? 😩",
+    "Pathhar dil 🪨💔",
+    "Mummy se shikayat krdunga 😡📞",
+    "Ab toh had hi hogyi 😠",
+    "Is that your final answer? 🤨❓",
+    "Dil tera tutuga toh pata laguga 💔😏",
   ];
 
   const funnyAlerts = [
     {
-      title: "First rejection detected! 💔",
+      title: "Bhai mana kar diya! 💔",
+      description: "Dil ke tukde hazaar hue, ek yaha gira... ek waha gira...",
+    },
+    {
+      title: "Arey sun toh sahi! 😤",
       description:
-        "Error 404: Acceptance not found. Initiating persuasion protocol...",
+        "Itna attitude kahan se laayi? Amazon se order kiya tha kya?",
     },
     {
-      title: "Persistence Level Increased! 🚀",
-      description: "Warning: Button has enabled its evasive maneuvers!",
+      title: "Ghanta farak padta hai! 🔔",
+      description: "Tera No suna, par dil ne Try again ka button daba diya!",
     },
     {
-      title: "Task Failed Successfully! 🎯",
-      description: "The 'No' button is now running on caffeine...",
+      title: "Dost ki tarah ignore mat kar! 🙄",
+      description: "Pyaar se poocha tha, block thodi kar raha tha!",
     },
     {
-      title: "Maximum Velocity Engaged! ⚡",
-      description: "Button has now achieved SPEED FORCE!",
-    },
-    {
-      title: "SYSTEM OVERLOAD! 🔥",
+      title: "Battery Low, Himmat High! ⚡",
       description:
-        "Button.exe has stopped working... JK, it's just getting started!",
+        "Tera No sirf ek low battery warning hai, charge firse ho jayega!",
     },
     {
-      title: "DANGER: Critical Mass! 💫",
-      description: "This button is now faster than your internet connection!",
+      title: "Mummy ko bataunga! 😡",
+      description: "Ab tu No bolegi ya mummy se complaint likhwau?",
     },
     {
-      title: "Mission Impossible Mode! 🕶️",
-      description: "Tom Cruise couldn't catch this button now!",
+      title: "Tera dil pathar ka hai kya? 🪨",
+      description: "Ek Yes bolne se na bijli ka bill badega na WiFi slow hoga!",
     },
     {
-      title: "Ultra Instinct Activated! ⚡",
-      description: "Not even Goku can catch this button anymore!",
+      title: "Chal jhooti! 🤥",
+      description:
+        "Mujhe pata hai dil ke kisi kone mein haan hai, bas zubaan ziddi hai!",
     },
     {
-      title: "QUANTUM SPEEDS DETECTED! 🌌",
-      description: "Button has entered the quantum realm!",
+      title: "Internet slow ho sakta hai, par main nahi! 🚀",
+      description: "Jitni baar No bolegi, utni baar retry ka button dabega!",
     },
     {
-      title: "REALITY BENDING! 🌀",
-      description: "Button is now breaking the laws of physics!",
+      title: "Dil tera todunga toh pata lagega! 💔",
+      description: "Fir kehna Mujhse galti ho gayi 😏",
     },
   ];
 
