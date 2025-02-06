@@ -1,0 +1,101 @@
+/* index.css */
+
+/* General Styles */
+body {
+  background-color: #ffe4e6; /* Light pink background */
+  font-family: "Dancing Script", cursive !important;
+  color: #4b5563; /* Cool gray text */
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Button Hover Effects */
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Alerts Styling */
+.alert {
+  border-left: 5px solid #f43f5e; /* Rose-colored accent */
+  background-color: #ffe4e6; /* Light pink background */
+  color: #4b5563;
+}
+
+/* Bouncing Hearts Animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* Adding Floating Hearts */
+@keyframes float-hearts {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-200px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.floating-heart {
+  position: absolute;
+  bottom: 20px;
+  animation: float-hearts 4s ease-in-out infinite;
+  color: #f43f5e;
+  opacity: 0.7;
+}
+
+.floating-heart:nth-child(2) {
+  left: 20%;
+  animation-delay: 1s;
+}
+
+.floating-heart:nth-child(3) {
+  left: 40%;
+  animation-delay: 2s;
+}
+
+.floating-heart:nth-child(4) {
+  left: 60%;
+  animation-delay: 3s;
+}
+
+.floating-heart:nth-child(5) {
+  left: 80%;
+  animation-delay: 4s;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
